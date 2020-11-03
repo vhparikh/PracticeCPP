@@ -7,7 +7,6 @@
 using namespace std;
 
 void list::build() {
-  srand(time(NULL));
   int counter = 0;
   Node* n = new Node();
   n->value = rand() % 21;

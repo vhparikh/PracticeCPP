@@ -13,6 +13,11 @@ class list {
   void build();
   void print();
   void rmHead();
- private:
+  void sub(list* origin, int copyNum);
+  void cpyTill(list* origin, int num);
+  void change();
+  void deleteNum(int num);
+  void addNum(int num, int pos);
+private:
   Node* head;
 };
